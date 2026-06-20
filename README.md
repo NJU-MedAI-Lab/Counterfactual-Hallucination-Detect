@@ -103,6 +103,10 @@ torchrun --nproc_per_node=2 src/train/train_qwen.py \
   --gradient_accumulation_steps 8
 ```
 
+## 🏰 Model Zoo
+
+We provide the visual grounding verifier checkpoints on [Huggingface](https://huggingface.co/Agentic-CliniAI/Counterfactual-Hallucination-Detect)
+
 ## ⚡️ Test
 
 For the full hallucination test pipeline with optional entity extraction and counterfactual generation:
